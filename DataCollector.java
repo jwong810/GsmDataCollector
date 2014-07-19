@@ -206,8 +206,6 @@ public class DataCollector extends Activity implements Runnable{
         		dataState = "Suspended";
         		break;
         }
-        
-        StringBuffer temp1 = null, temp2 = null;
              
         //add data to String list
         data.add(new String[]{sdf.format(cal.getTime()),
